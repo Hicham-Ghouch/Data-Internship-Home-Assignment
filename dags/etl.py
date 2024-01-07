@@ -247,5 +247,3 @@ def etl_dag():
     )
 
     create_tables >> extract() >> transform() >> load()
-
-etl_dag()
